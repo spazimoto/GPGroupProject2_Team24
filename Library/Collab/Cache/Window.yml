@@ -32,6 +32,7 @@ MonoBehaviour:
     - Assets/Scenes/maingame.unity
     - Assets/Scenes/startmenu.unity
     - Assets/Scenes/startmenu.unity.meta
+    - Assets/Scripts/CameraController.cs
     - Assets/Scripts/DoorController.cs
     - Assets/Scripts/EnemyAI.cs
     - Assets/Scripts/PlayerController.cs
@@ -44,7 +45,7 @@ MonoBehaviour:
     - ProjectSettings/EditorBuildSettings.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
