@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public CharacterController controller;
 
-    private float speed = 13f;
+    private float speed = 16f;
     public float gravity = -9.81f;
 
     public Transform groundCheck;
@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
         {
             if (staminaBar.GetComponent<StaminaScript>().currentStamina > 0)
             {
-                speed = 20f;
+                speed = 25f;
                 StaminaScript.instance.UseStamina(1);
 
                 //Debug.Log("Gotta go fast!");
@@ -56,12 +56,12 @@ public class PlayerController : MonoBehaviour
 
             else if (staminaBar.GetComponent<StaminaScript>().currentStamina <= 0)
             {
-                speed = 13f;
+                speed = 16f;
             }
         }
         else
         {
-            speed = 13f;
+            speed = 16f;
         }
     }
 

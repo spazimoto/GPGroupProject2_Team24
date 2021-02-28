@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - .collabignore
+    - Assets/Animations/Mugiffun.controller
+    - Assets/Animations/Mugiffun.controller.meta
+    - Assets/Animations/Rotate.anim
+    - Assets/Animations/Rotate.anim.meta
     - Assets/Fantasy Skybox FREE.meta
     - Assets/Fantasy Skybox FREE/Materials.meta
     - Assets/Fantasy Skybox FREE/Materials/Classic.meta
@@ -24,17 +27,24 @@ MonoBehaviour:
     - Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02_Sunless.png.meta
     - Assets/Fantasy Skybox FREE/Readme.txt
     - Assets/Fantasy Skybox FREE/Readme.txt.meta
-    - Assets/Materials/Trigger.mat
-    - Assets/Materials/Trigger.mat.meta
+    - Assets/Map Data/Terrain/New Terrain 4.asset
+    - Assets/Scenes/Main Menu.unity
     - Assets/Scenes/maingame.unity
-    - Assets/Scenes/maingame.unity.meta
+    - Assets/Scenes/startmenu.unity
+    - Assets/Scenes/startmenu.unity.meta
+    - Assets/Scripts/DoorController.cs
+    - Assets/Scripts/EnemyAI.cs
+    - Assets/Scripts/PlayerController.cs
+    - Assets/Scripts/UI Scripts/GameOver.cs
+    - Assets/Scripts/UI Scripts/MainMenuScript.cs
+    - Assets/Scripts/UI Scripts/PauseMenu.cs
+    - Assets/Sprites/IMG-0114.PNG.meta
     - Assets/Sprites/character.mat
-    - Assets/Sprites/character.mat.meta
-    - Packages/manifest.json
-    - Packages/packages-lock.json
-    - ProjectSettings/ProjectVersion.txt
+    - Assets/Sprites/lambert 1.mat
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/TagManager.asset
     - 
-    m_Values: 0000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

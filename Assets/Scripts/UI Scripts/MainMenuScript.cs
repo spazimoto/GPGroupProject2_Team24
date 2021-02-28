@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,10 +9,6 @@ public class MainMenuScript : MonoBehaviour
     public Image black;
     public Animator anim;
 
-    void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-    }
     void Update()
     {
         float selectVert = Input.GetAxis("Vertical");

@@ -44,7 +44,7 @@ public class EnemyAI : MonoBehaviour
     {
         transform.LookAt(player);
         //Debug.Log("I see you!");
-        agent.speed = 20f;
+        agent.speed = 25f;
 
         agent.SetDestination(player.position);//need to figure out how to make it stop following it's patrol path to chase player
     }
@@ -97,7 +97,7 @@ public class EnemyAI : MonoBehaviour
 
     void SlowDown()
     {
-        agent.speed = 15f;
+        agent.speed = 20f;
         Debug.Log("Slowing Down...");
     }
 }

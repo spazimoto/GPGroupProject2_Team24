@@ -233,73 +233,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
-    Assets/Scenes/Main Menu.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11716}
-    - Class: 114
-      Script: {instanceID: 11904}
-    - Class: 114
-      Script: {instanceID: 11944}
-    - Class: 114
-      Script: {instanceID: 12308}
-    - Class: 114
-      Script: {instanceID: 12384}
-    - Class: 114
-      Script: {instanceID: 12856}
-    - Class: 114
-      Script: {instanceID: 12884}
-    - Class: 114
-      Script: {instanceID: 13402}
-    - Class: 114
-      Script: {instanceID: 13620}
-    - Class: 114
-      Script: {instanceID: 13796}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 850595691
-      Script: {instanceID: 0}
     Assets/Scenes/Win Screen.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -485,6 +418,69 @@ ScriptsOnlyBuild:
     - Class: 245
       Script: {instanceID: 0}
     - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/Scenes/startmenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11716}
+    - Class: 114
+      Script: {instanceID: 11904}
+    - Class: 114
+      Script: {instanceID: 11944}
+    - Class: 114
+      Script: {instanceID: 12308}
+    - Class: 114
+      Script: {instanceID: 12384}
+    - Class: 114
+      Script: {instanceID: 12856}
+    - Class: 114
+      Script: {instanceID: 13402}
+    - Class: 114
+      Script: {instanceID: 13620}
+    - Class: 114
+      Script: {instanceID: 13796}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/testscene.unity:
     - Class: 1
@@ -1136,9 +1132,9 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 19
   scenePathNames:
-  - Assets/Scenes/Main Menu.unity
-  - Assets/Scenes/maingame.unity
   - Assets/Scenes/Controls Screen.unity
+  - Assets/Scenes/startmenu.unity
+  - Assets/Scenes/maingame.unity
   - Assets/Scenes/Credits.unity
   - Assets/Scenes/Game Over.unity
   - Assets/Scenes/Win Screen.unity

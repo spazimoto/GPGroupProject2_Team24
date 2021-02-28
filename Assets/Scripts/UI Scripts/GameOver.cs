@@ -5,10 +5,6 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {
-    void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-    }
 
     void Update()
     {
@@ -17,6 +13,6 @@ public class GameOver : MonoBehaviour
     }
     public void Restart()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("startmenu");
     }
 }
